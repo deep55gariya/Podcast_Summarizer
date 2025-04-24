@@ -44,6 +44,7 @@ def main():
     # Header section with logo and title
     col1, col2 = st.columns([1, 4])
     with col1:
+        # st.image("assets/logo.png", width=100)
         st.image("https://upload.wikimedia.org/wikipedia/commons/0/08/YouTube_Logo_2017.svg", width=100)
 
     with col2:
